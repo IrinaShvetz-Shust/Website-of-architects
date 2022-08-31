@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+
+    * {
+        box-sizing: border-box;
+    }
+
+    a {
+        display: inline-block;
+    }
+
+    img {
+        display: block;
+    }
+
+    p {
+        margin: 0;
+    }
+}
