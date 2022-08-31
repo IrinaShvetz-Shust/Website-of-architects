@@ -23,38 +23,7 @@
   src: url(../assets/fonts/Roboto-Bold.woff2);
 }
 body {
-  display: block;
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0;
   font-family: "Roboto", sans-serif;
-}
-
-.title {
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
-  font-size: 64px;
-  font-weight: 300;
-  color: hsl(0deg, 0%, 74%);
-}
-
-.text {
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 25px;
-}
-
-.subtitle {
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
-  font-size: 64px;
-  font-weight: 700;
-  color: #333333;
 }
 
 /*# sourceMappingURL=main.css.map */
