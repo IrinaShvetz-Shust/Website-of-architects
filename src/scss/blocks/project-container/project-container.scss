@@ -1,0 +1,6 @@
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr, 721px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 30px;
+}

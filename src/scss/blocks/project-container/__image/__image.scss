@@ -1,0 +1,7 @@
+.project-container__image {
+    margin: 0;
+
+    &_wide {
+        grid-column: 1/3;
+    }
+}
