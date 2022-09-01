@@ -1,4 +1,29 @@
-@import url('../assets/fonts/Roboto-Light.woff');
-@import url('../assets/fonts/Roboto-Regular.woff');
+@font-face {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: normal;
+  src: url(../assets/fonts/Roboto-Light.woff2);
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../assets/fonts/Roboto-Regular.woff2);
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../assets/fonts/Roboto-Medium.woff2);
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../assets/fonts/Roboto-Bold.woff2);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 /*# sourceMappingURL=main.css.map */

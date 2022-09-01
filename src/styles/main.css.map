@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "",
-"sources": [],
-"names": [],
-"file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["../../src/scss/fonts.scss","../../src/scss/blocks/body/body.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;ACzBJ;EACI","file":"main.css"}
