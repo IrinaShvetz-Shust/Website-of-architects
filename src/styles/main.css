@@ -38,6 +38,9 @@ body {
   font-weight: 300;
   color: hsl(0deg, 0%, 74%);
 }
+.title_main {
+  text-transform: uppercase;
+}
 
 .text {
   margin: 0;
@@ -69,6 +72,7 @@ body {
 }
 
 .project-subtitle {
+  display: block;
   margin-bottom: 60px;
 }
 

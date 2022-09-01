@@ -5,4 +5,8 @@
     font-size: 64px;
     font-weight: 300;
     color: hsl(0, 0%, 74%);
+
+    &_main {
+        text-transform: uppercase;
+    }
 }
