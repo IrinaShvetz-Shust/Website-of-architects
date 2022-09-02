@@ -23,6 +23,7 @@
   src: url(../assets/fonts/Roboto-Bold.woff2);
 }
 body {
+  border: 1px solid red;
   display: block;
   max-width: 1170px;
   margin: 0 auto;
