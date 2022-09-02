@@ -36,6 +36,8 @@ body {
   font-family: inherit;
   font-size: 64px;
   font-weight: 300;
+  line-height: 64px;
+  color: #bdbdbd;
   color: hsl(0deg, 0%, 74%);
 }
 .title_main {
@@ -58,6 +60,63 @@ body {
   font-size: 64px;
   font-weight: 700;
   color: #333333;
+}
+
+.h-contact {
+  margin-top: 63px;
+  width: 338px;
+}
+
+.contact__adress {
+  margin-top: 34px;
+  margin-bottom: 44px;
+}
+
+.contact__p1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.contact__p2 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.contact__phone {
+  margin-bottom: 44px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.contact__email {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 33px;
+}
+
+.contact__button_dark {
+  width: 222px;
+  height: 71px;
+  border: none;
+  background: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.container-con {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100px;
 }
 
 .project-container__image {
