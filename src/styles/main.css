@@ -36,16 +36,13 @@ body {
   font-family: inherit;
   font-size: 64px;
   font-weight: 300;
-<<<<<<< HEAD
   line-height: 64px;
   color: #bdbdbd; }
-=======
-  color: hsl(0deg, 0%, 74%);
-}
+
 .title_main {
   text-transform: uppercase;
 }
->>>>>>> 499ac5411d56d6644daef3fdc96b021d9aa8239d
+
 
 .text {
   margin: 0;
