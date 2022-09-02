@@ -1,0 +1,13 @@
+.button {
+    padding-top: 30px;
+    padding-bottom: 29px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+    &_white {
+        color: #333333;
+        background-color: #ffffff;
+    }
+}

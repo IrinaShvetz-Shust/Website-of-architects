@@ -2,28 +2,33 @@
   font-family: Roboto;
   font-weight: 300;
   font-style: normal;
-  src: url(../assets/fonts/Roboto-Light.woff2); }
+  src: url(../assets/fonts/Roboto-Light.woff2);
+}
 @font-face {
   font-family: Roboto;
   font-weight: 400;
   font-style: normal;
-  src: url(../assets/fonts/Roboto-Regular.woff2); }
+  src: url(../assets/fonts/Roboto-Regular.woff2);
+}
 @font-face {
   font-family: Roboto;
   font-weight: 500;
   font-style: normal;
-  src: url(../assets/fonts/Roboto-Medium.woff2); }
+  src: url(../assets/fonts/Roboto-Medium.woff2);
+}
 @font-face {
   font-family: Roboto;
   font-weight: 700;
   font-style: normal;
-  src: url(../assets/fonts/Roboto-Bold.woff2); }
+  src: url(../assets/fonts/Roboto-Bold.woff2);
+}
 body {
   display: block;
   max-width: 1170px;
   margin: 0 auto;
   padding: 0;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 .title {
   margin: 0;
@@ -31,8 +36,16 @@ body {
   font-family: inherit;
   font-size: 64px;
   font-weight: 300;
+<<<<<<< HEAD
   line-height: 64px;
   color: #bdbdbd; }
+=======
+  color: hsl(0deg, 0%, 74%);
+}
+.title_main {
+  text-transform: uppercase;
+}
+>>>>>>> 499ac5411d56d6644daef3fdc96b021d9aa8239d
 
 .text {
   margin: 0;
@@ -40,7 +53,8 @@ body {
   font-family: inherit;
   font-size: 16px;
   font-weight: 300;
-  line-height: 25px; }
+  line-height: 25px;
+}
 
 .subtitle {
   margin: 0;
@@ -48,7 +62,65 @@ body {
   font-family: inherit;
   font-size: 64px;
   font-weight: 700;
-  color: #333333; }
+  color: #333333;
+}
+
+.project-container__image {
+  margin: 0;
+}
+.project-container__image_wide {
+  grid-column: 1/3;
+}
+
+.project-container__text {
+  width: 721px;
+  grid-column: 2/3;
+  margin: 0;
+  padding: 0;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr, 721px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.main-container {
+  padding: 63px 0 120px 0;
+}
+
+.project-subtitle {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.button {
+  padding-top: 30px;
+  padding-bottom: 29px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.button_white {
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.intro__button {
+  text-decoration: none;
+}
+
+.intro__title {
+  padding: 0;
+  padding-top: 336px;
+  margin: 0;
+}
+
+.intro {
+  display: flex;
+}
 
 .h-contact {
   margin-top: 63px;
