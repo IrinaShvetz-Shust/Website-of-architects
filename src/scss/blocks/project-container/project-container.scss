@@ -1,3 +1,6 @@
+@import "./__image/_image";
+@import "./__text/_text";
+
 .project-container {
     display: grid;
     grid-template-columns: 1fr, 721px;

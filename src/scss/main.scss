@@ -6,26 +6,5 @@
 @import "./blocks/project-container/project-container.scss";
 @import "./blocks/main-container/main-container.scss";
 @import "./blocks/project-subtitle/project-subtitle.scss";
-@import "./blocks/project-container/__image/_image";
-@import "./blocks/project-container/__text/_text";
-
-// body {
-//     margin: 0;
-
-//     * {
-//         box-sizing: border-box;
-//     }
-
-//     a {
-//         display: inline-block;
-//     }
-
-//     img {
-//         display: block;
-//     }
-
-//     p {
-//         margin: 0;
-//     }
-// }
-
+@import "./blocks/button/button.scss";
+@import "./blocks/intro/intro.scss";
