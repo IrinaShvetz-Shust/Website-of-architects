@@ -3,5 +3,5 @@
     margin-left: 110px;
     margin-bottom: 112px;
     grid-template-columns: 2;
-    grid-template-rows: 5;
+    grid-template-rows: repeat(5, auto);
 }
