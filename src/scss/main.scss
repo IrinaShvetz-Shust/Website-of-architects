@@ -12,26 +12,6 @@
 @import "./blocks/container-con/__email/container-con__email.scss";
 @import "./blocks/container-con/__button_dark/contact__button_dark.scss";
 @import "./blocks/container-con/__map-responsive/container-con__map-responsive.scss";
-// body {
-//     margin: 0;
-
-//     * {
-//         box-sizing: border-box;
-//     }
-
-//     a {
-//         display: inline-block;
-//     }
-
-//     img {
-//         display: block;
-//     }
-
-//     p {
-//         margin: 0;
-//     }
-// }
-
 @import "./blocks/project-container/project-container.scss";
 @import "./blocks/main-container/main-container.scss";
 @import "./blocks/project-subtitle/project-subtitle.scss";
@@ -51,7 +31,6 @@
 @import "./blocks/nav/__item/nav__item.scss";
 @import "./blocks/nav/__item_links_color/nav__item_links_color.scss";
 @import "./blocks/nav/_text_size/nav_text_size.scss";
-@import "./blocks/footer-nav/";
 @import "./blocks/footer-rights/footer-rights.scss";
 @import "./blocks/footer-rights/_layout/footer-rights_layout.scss";
 

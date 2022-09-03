@@ -1,59 +1,237 @@
-/*
-Error: File to import not found or unreadable: ./blocks/footer-nav/.
-        on line 54 of src/scss/main.scss
+@font-face {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: normal;
+  src: url(../assets/fonts/Roboto-Light.woff2); }
+@font-face {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../assets/fonts/Roboto-Regular.woff2); }
+@font-face {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../assets/fonts/Roboto-Medium.woff2); }
+@font-face {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../assets/fonts/Roboto-Bold.woff2); }
+body {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
 
-49: @import "./blocks/logo/logo.scss";
-50: @import "./blocks/nav/nav.scss";
-51: @import "./blocks/nav/__item/nav__item.scss";
-52: @import "./blocks/nav/__item_links_color/nav__item_links_color.scss";
-53: @import "./blocks/nav/_text_size/nav_text_size.scss";
-54: @import "./blocks/footer-nav/";
-55: @import "./blocks/footer-rights/footer-rights.scss";
-56: @import "./blocks/footer-rights/_layout/footer-rights_layout.scss";
+.title {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  color: #bdbdbd;
+  color: #bdbdbd; }
+  .title_main {
+    text-transform: uppercase; }
 
-Backtrace:
-src/scss/main.scss:54
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-C:/Ruby31-x64/bin/sass:32:in `load'
-C:/Ruby31-x64/bin/sass:32:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: ./blocks/footer-nav/.\A         on line 54 of src/scss/main.scss\A \A 49: @import \"./blocks/logo/logo.scss\";\A 50: @import \"./blocks/nav/nav.scss\";\A 51: @import \"./blocks/nav/__item/nav__item.scss\";\A 52: @import \"./blocks/nav/__item_links_color/nav__item_links_color.scss\";\A 53: @import \"./blocks/nav/_text_size/nav_text_size.scss\";\A 54: @import \"./blocks/footer-nav/\";\A 55: @import \"./blocks/footer-rights/footer-rights.scss\";\A 56: @import \"./blocks/footer-rights/_layout/footer-rights_layout.scss\";"; }
+.text {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px; }
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 700;
+  color: #333333; }
+
+.container-con {
+  display: grid;
+  margin-left: 110px;
+  margin-bottom: 112px;
+  grid-template-columns: 2;
+  grid-template-rows: 5; }
+
+.container-con__h-contact {
+  margin-top: 63px;
+  width: 338px; }
+
+.container-con__adress {
+  grid-column: 1; }
+
+.container-con__phone {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  grid-column: 1; }
+
+.container-con__p1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px; }
+
+.container-con__p2 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px; }
+
+.container-con__email {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  grid-column: 1; }
+
+.container-con__button_dark {
+  grid-column: 1;
+  width: 222px;
+  height: 71px;
+  border: none;
+  background: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer; }
+
+.container-con__map-responsive {
+  grid-column: 2;
+  grid-row: 1/5;
+  margin-left: 100px;
+  border: 1px solid #000000; }
+
+.project-container__image {
+  margin: 0; }
+  .project-container__image_wide {
+    grid-column: 1/3; }
+
+.project-container__text {
+  width: 721px;
+  grid-column: 2/3;
+  margin: 0;
+  padding: 0; }
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr, 721px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 30px; }
+
+.main-container {
+  padding: 63px 0 120px 0; }
+
+.project-subtitle {
+  display: block;
+  margin-bottom: 60px; }
+
+.button {
+  padding-top: 30px;
+  padding-bottom: 29px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase; }
+  .button_white {
+    color: #333333;
+    background-color: #ffffff; }
+
+.intro__button {
+  text-decoration: none; }
+
+.intro__title {
+  padding: 0;
+  padding-top: 336px;
+  margin: 0; }
+
+.intro {
+  display: flex; }
+
+.container-sertificates {
+  margin-left: 5%;
+  margin-top: 5%;
+  height: 85vh; }
+
+.footer-media__icons {
+  padding: 5%; }
+
+.footer-nav {
+  display: flex;
+  flex-direction: column; }
+
+.footer-nav__img {
+  margin-right: 4%; }
+
+.footer-nav__item {
+  list-style-type: none;
+  padding-top: 6%;
+  color: white;
+  text-decoration: none; }
+
+.footer-nav__item:hover {
+  color: #ffffffc4; }
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 50vh;
+  width: 100%;
+  background-color: #2C2C2C;
+  color: white; }
+
+.footer__item {
+  margin-top: 10%; }
+
+.footer__logo {
+  padding: 12%;
+  margin-left: 3%; }
+
+.header {
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 1fr 3fr; }
+
+.logo {
+  margin-top: 2%;
+  margin-left: 24%; }
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 55%;
+  margin-left: 24%; }
+
+.nav__item:hover {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black; }
+
+.nav__item_links_color {
+  color: black;
+  text-decoration: none; }
+
+.nav_text_size {
+  text-transform: uppercase;
+  font-size: 14px !important; }
+
+.footer-rights {
+  border: 0.5px solid #c8c8c87c;
+  background-color: #2C2C2C;
+  font-size: 12px;
+  color: #c8c8c87c; }
+
+.footer-rights_layout {
+  display: flex;
+  justify-content: center;
+  padding: 1%; }
+
+/*# sourceMappingURL=main.css.map */
