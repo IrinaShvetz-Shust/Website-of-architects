@@ -24,7 +24,6 @@
 }
 body {
   display: block;
-  max-width: 1170px;
   margin: 0 auto;
   padding: 0;
   font-family: "Roboto", sans-serif;
@@ -36,16 +35,13 @@ body {
   font-family: inherit;
   font-size: 64px;
   font-weight: 300;
-<<<<<<< HEAD
   line-height: 64px;
-  color: #bdbdbd; }
-=======
+  color: #bdbdbd;
   color: hsl(0deg, 0%, 74%);
 }
 .title_main {
   text-transform: uppercase;
 }
->>>>>>> 499ac5411d56d6644daef3fdc96b021d9aa8239d
 
 .text {
   margin: 0;
@@ -63,6 +59,76 @@ body {
   font-size: 64px;
   font-weight: 700;
   color: #333333;
+}
+
+.container-con {
+  display: grid;
+  margin-left: 110px;
+  margin-bottom: 112px;
+  grid-template-columns: 2;
+  grid-template-rows: repeat(5, auto);
+}
+
+.container-con__h-contact {
+  margin-top: 63px;
+  width: 338px;
+}
+
+.container-con__adress {
+  grid-column: 1;
+  margin-bottom: 35px;
+}
+
+.container-con__phone {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  grid-column: 1;
+  margin-bottom: 35px;
+  text-decoration: none;
+}
+
+.container-con__p1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.container-con__p2 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.container-con__email {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  grid-column: 1;
+  margin-bottom: 20px;
+}
+
+.container-con__button_dark {
+  grid-column: 1;
+  width: 222px;
+  height: 71px;
+  border: none;
+  background: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.container-con__map-responsive {
+  grid-column: 2;
+  grid-row: 1/6;
+  margin-left: 100px;
+  border: 1px solid #000000;
 }
 
 .project-container__image {
@@ -122,53 +188,103 @@ body {
   display: flex;
 }
 
-.h-contact {
-  margin-top: 63px;
-  width: 338px; }
+.container-sertificates {
+  margin-left: 5%;
+  margin-top: 5%;
+  height: 85vh;
+}
 
-.contact__adress {
-  margin-top: 34px;
-  margin-bottom: 44px; }
+.footer-media__icons {
+  padding: 5%;
+}
 
-.contact__p1 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px; }
-
-.contact__p2 {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 23px; }
-
-.contact__phone {
-  margin-bottom: 44px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px; }
-
-.contact__email {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  margin-bottom: 33px; }
-
-.contact__button_dark {
-  width: 222px;
-  height: 71px;
-  border: none;
-  background: #333333;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  cursor: pointer; }
-
-.container-con {
+.footer-nav {
   display: flex;
-  flex-flow: column wrap;
-  height: 100px; }
+  flex-direction: column;
+}
+
+.footer-nav__img {
+  margin-right: 4%;
+}
+
+.footer-nav__item {
+  list-style-type: none;
+  padding-top: 6%;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav__item:hover {
+  color: rgba(255, 255, 255, 0.768627451);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 50vh;
+  width: 100%;
+  background-color: #2C2C2C;
+  color: white;
+}
+
+.footer__item {
+  margin-top: 10%;
+}
+
+.footer__logo {
+  padding: 12%;
+  margin-left: 3%;
+}
+
+.header {
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.logo {
+  margin-top: 2%;
+  margin-left: 24%;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+  margin-left: 23%;
+}
+
+.nav__item:hover {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.nav__item_links_color {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_text_size {
+  text-transform: uppercase;
+  font-size: 12px !important;
+  letter-spacing: 1px;
+}
+
+.footer-rights {
+  border: 0.5px solid rgba(200, 200, 200, 0.4862745098);
+  background-color: #2C2C2C;
+  font-size: 12px;
+  color: rgba(200, 200, 200, 0.4862745098);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-rights_layout {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
 
 /*# sourceMappingURL=main.css.map */
