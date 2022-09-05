@@ -1,3 +1,4 @@
+
 .footer {
 
     display: grid;
@@ -6,4 +7,9 @@
     width: 100% ;
     background-color: #2C2C2C;
     color: white;
+}
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .footer {
+        height: 40vh;
+    }
 }
