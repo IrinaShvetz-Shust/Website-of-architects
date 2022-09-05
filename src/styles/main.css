@@ -288,4 +288,15 @@ body {
 #IMG-10 {
   grid-area: IMG10; }
 
+.row {
+  display: block;
+  margin-top: 22px; }
+
+.row__input {
+  width: 391px;
+  height: 46px;
+  border: none;
+  margin-bottom: 5px;
+  background: #F3F3F3; }
+
 /*# sourceMappingURL=main.css.map */
