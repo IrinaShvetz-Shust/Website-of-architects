@@ -532,6 +532,18 @@ body {
   grid-area: IMG10;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer__logo_size {
+    width: 70%;
+  }
+}
+.form {
+  display: flex;
+  height: 500px;
+  margin-top: 22px;
+  flex-flow: column wrap;
+}
+
 .form__row {
   display: block;
   margin-top: 10px;
@@ -548,18 +560,6 @@ body {
   letter-spacing: 0.04em;
   color: #8D8D8D;
   background: #F3F3F3;
-}
-
-.form {
-  display: flex;
-  height: 500px;
-  margin-top: 22px;
-  flex-flow: column wrap;
-}
-
-.form__message {
-  height: 112px;
-  padding-top: 14px;
 }
 
 .form__button_dark {
@@ -581,6 +581,17 @@ body {
   .footer__logo_size {
     width: 70%;
   }
+}
+.form {
+  display: flex;
+  height: 500px;
+  margin-top: 22px;
+  flex-flow: column wrap;
+}
+
+.form__message {
+  height: 112px;
+  padding-top: 14px;
 }
 
 .footer-media__icons_color {
