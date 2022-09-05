@@ -477,11 +477,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.container-gallery__h1-gall {
-  margin-top: 63px;
-  width: 338px;
-}
-
 .container-gallery__contain-img {
   display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
