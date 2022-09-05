@@ -1,9 +1,9 @@
-/* Error: expected "{".
+/* Error: Can't find stylesheet to import.
  *    ,
- * 40 | @import "./blocks/footer/__logo_size/footer__logo_size.scss";
- *    |                                                             ^
+ * 37 | @import "./blocks/container-gallery/__h1-gall/container-gallery__h1-gall.scss";
+ *    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  *    '
- *   src\scss\main.scss 40:61  root stylesheet */
+ *   src\scss\main.scss 37:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 40 \2502  @import "./blocks/footer/__logo_size/footer__logo_size.scss";\d\a    \2502                                                              ^\a    \2575 \a   src\\scss\\main.scss 40:61  root stylesheet';
+  content: "Error: Can't find stylesheet to import.\a    \2577 \a 37 \2502  @import \"./blocks/container-gallery/__h1-gall/container-gallery__h1-gall.scss\";\d\a    \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   src\\scss\\main.scss 37:9  root stylesheet";
 }
