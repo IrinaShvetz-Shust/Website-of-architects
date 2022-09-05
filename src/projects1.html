@@ -11,15 +11,31 @@
 </head>
 
 <body>
-    <header></header>
-    <main class="main-container">
+    <header class="header ">
+        <div class="logo"><img src="assets/images/header-logo.svg" alt="logo"></div>
+        <nav>
+            <ul class="nav nav_text_size">
+                <li class="nav__item "><a href="Main.html" target="_blank"
+                        class="nav__item_links_color nav__item_link_active">Main</a></li>
+                <li class="nav__item"><a href="Gallery.html" target="_blank" class="nav__item_links_color">Gallery</a>
+                </li>
+                <li class="nav__item"><a href="Projects.html" target="_blank" class="nav__item_links_color">Projects</a>
+                </li>
+                <li class="nav__item"><a href="Certifications.html" target="_blank"
+                        class="nav__item_links_color">Certifications</a></li>
+                <li class="nav__item"><a href="Contacts.html" target="_blank" class="nav__item_links_color">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container_projects1">
         <h1 class="project-title title">Sample
             <span class="project-subtitle subtitle">Project 1</span>
         </h1>
         <section class="project-container">
-            <img class="project-container__image project-container__image_wide" src="./assets/images/project1-big.jpg"
+            <img class="project-container__image project-container__image_wide" src="assets/images/project1-big.jpg"
                 alt="Столы с компьютерами.">
-            <img class="project-container__image" src="./assets/images/project1-small.jpg"
+            <img class="project-container__image project-container__image_square" src="assets/images/project1-small.jpg"
                 alt="Переговорная комната в офисе.">
             <p class="project-container__text text">Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
@@ -49,11 +65,47 @@
                 popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
                 recently with.
             </p>
-            <img class="project-container__image project-container__image_wide"
-                src="./assets/images/project1-drawing.jpg" alt="Чертежи.">
+            <img class="project-container__image project-container__image_wide" src="assets/images/project1-drawing.jpg"
+                alt="Чертежи.">
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer text ">
+        <div class="footer__logo"><img src="assets/images/footer_logo.svg" alt="logo"></div>
+        <div class="footer__item">Information
+            <nav class="footer-nav">
+                <a href="Main.html" target="_blank" class="footer-nav__item">Main</a>
+                <a href="Gallery.html" target="_blank" class="footer-nav__item">Gallery</a>
+                <a href="Projects.html" target="_blank" class="footer-nav__item">Projects</a>
+                <a href="Certifications.html" target="_blank" class="footer-nav__item">Certifications</a>
+                <a href="Contacts.html" target="_blank" class="footer-nav__item">Contacts</a>
+            </nav>
+        </div>
+        <div class="footer__item">Contacts <address class="footer-nav">
+                <a href="" target="_blank" class="footer-nav__item">
+                    <img src="assets/images/footer-img-1.svg" alt="location icon" class="footer-nav__img">1234
+                    Sample Street<br>Austin Texas 78681 </a>
+                <a href="" target="_blank" class="footer-nav__item">
+                    <img src="assets/images/footer-img-2.svg" alt="phone icon" class="footer-nav__img">512.333.2222
+                </a>
+                <a href="" target="_blank" class="footer-nav__item">
+                    <img src="assets/images/footer-img-3.svg" alt="message icon"
+                        class="footer-nav__img">sampleemail@gmail.com</a>
+            </address>
+        </div>
+        <div class="footer__item">Social Media <div class="footer-media"><a href="" target="_blank"><img
+                        src="assets/images/fb-img.svg" alt="facebook-icon" class="footer-media__icons"></a><a href=""
+                    target="_blank"><img src="assets/images/twitter-img.svg" alt="twitter-icon"
+                        class="footer-media__icons"></a><a href="" target="_blank"><img
+                        src="assets/images/twitter-img.svg" alt="twitter-icon" class="footer-media__icons"></a><a
+                    href="" target="_blank"><img src="assets\images\p-img.svg" alt="p-icon"
+                        class="footer-media__icons"></a>
+                <a class="footer-media__icons" href="./assets/images/icons/Linked In.svg"></a>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-rights text">
+        <p class="footer-rights_layout">© 2021 All Rights Reserved</p>
+    </div>
 </body>
 
 </html>

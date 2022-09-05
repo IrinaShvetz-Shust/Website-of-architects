@@ -1,4 +1,26 @@
 .main-container {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 120px;
+    max-width: 1170px;
+}
+
+.main-container_projects1 {
+    display: block;
     padding: 63px 0 120px 0;
-    
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+@media screen and (max-width: 767px)  {
+    .main-container_projects1 {
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .main-container_projects1 {
+        padding: 50px 20px;
+    }
 }
