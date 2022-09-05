@@ -23,7 +23,9 @@
   src: url(../assets/fonts/Roboto-Bold.woff2);
 }
 body {
+  border: 1px solid red;
   display: block;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0;
   font-family: "Roboto", sans-serif;
@@ -35,8 +37,6 @@ body {
   font-family: inherit;
   font-size: 64px;
   font-weight: 300;
-  line-height: 64px;
-  color: #bdbdbd;
   color: hsl(0deg, 0%, 74%);
 }
 .title_main {
@@ -59,76 +59,6 @@ body {
   font-size: 64px;
   font-weight: 700;
   color: #333333;
-}
-
-.container-con {
-  display: grid;
-  margin-left: 110px;
-  margin-bottom: 112px;
-  grid-template-columns: 2;
-  grid-template-rows: repeat(5, auto);
-}
-
-.container-con__h-contact {
-  margin-top: 63px;
-  width: 338px;
-}
-
-.container-con__adress {
-  grid-column: 1;
-  margin-bottom: 35px;
-}
-
-.container-con__phone {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  grid-column: 1;
-  margin-bottom: 35px;
-  text-decoration: none;
-}
-
-.container-con__p1 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-}
-
-.container-con__p2 {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 23px;
-}
-
-.container-con__email {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  grid-column: 1;
-  margin-bottom: 20px;
-}
-
-.container-con__button_dark {
-  grid-column: 1;
-  width: 222px;
-  height: 71px;
-  border: none;
-  background: #333333;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  cursor: pointer;
-}
-
-.container-con__map-responsive {
-  grid-column: 2;
-  grid-row: 1/6;
-  margin-left: 100px;
-  border: 1px solid #000000;
 }
 
 .project-container__image {
@@ -252,8 +182,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 60%;
-  margin-left: 23%;
+  width: 55%;
+  margin-left: 24%;
 }
 
 .nav__item:hover {
@@ -268,8 +198,7 @@ body {
 
 .nav_text_size {
   text-transform: uppercase;
-  font-size: 12px !important;
-  letter-spacing: 1px;
+  font-size: 14px !important;
 }
 
 .footer-rights {
@@ -277,13 +206,10 @@ body {
   background-color: #2C2C2C;
   font-size: 12px;
   color: rgba(200, 200, 200, 0.4862745098);
-  display: flex;
-  justify-content: center;
 }
 
 .footer-rights_layout {
-  display: flex;
-  justify-content: center;
+  margin-left: 24%;
   padding: 1%;
 }
 
