@@ -1,6 +1,10 @@
 @import "./__button/_button";
 @import "./__title/_title";
+@import "./__container/_container";
 
 .intro {
     display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 120px;
 }
