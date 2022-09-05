@@ -59,6 +59,10 @@ body {
   grid-template-columns: 2;
   grid-template-rows: repeat(5, auto); }
 
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .container-con {
+    grid-template-columns: 1;
+    margin-left: 50px; } }
 .container-con__h-contact {
   margin-top: 63px;
   width: 338px; }
@@ -73,7 +77,7 @@ body {
   line-height: 21px;
   grid-column: 1;
   margin-bottom: 35px;
-  text-decoration: non; }
+  text-decoration: none; }
 
 .container-con__p1 {
   font-weight: 700;
@@ -113,6 +117,9 @@ body {
   margin-left: 100px;
   border: 1px solid #000000; }
 
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .container-con__map-responsive {
+    grid-column: 1; } }
 .project-container__image {
   margin: 0; }
   .project-container__image_wide {

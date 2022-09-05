@@ -4,3 +4,9 @@
     margin-left: 100px;
     border: 1px solid #000000;
 }
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .container-con__map-responsive {
+        grid-column: 1;
+    }
+}
