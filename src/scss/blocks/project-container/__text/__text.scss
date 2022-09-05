@@ -4,3 +4,15 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 767px)  {
+    .project-container__text {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .project-container__text {
+        width: 100%;
+    }
+}

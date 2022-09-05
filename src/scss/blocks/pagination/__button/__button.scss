@@ -1,0 +1,26 @@
+.pagination__button {
+    width: 53px;
+    height: 53px;
+    text-decoration: none;
+    border: 1px solid #F2F2F2;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &_left {
+        margin-right: 23px;
+        background-image: url('../assets/images/icons/arrow-left.svg');
+    }
+
+    &_right {
+        background-image: url('../assets/images/icons/arrow.svg');
+    }
+
+    &:hover {
+        background-color: #F9F9F9;
+    }
+
+    &:focus {
+        background-color: #F9F9F9;
+    }
+}
