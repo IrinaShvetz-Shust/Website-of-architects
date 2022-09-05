@@ -214,11 +214,17 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .main-container {
+    padding: 20px;
+  }
   .main-container_projects1 {
     padding: 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-container {
+    padding: 20px;
+  }
   .main-container_projects1 {
     padding: 50px 20px;
   }
@@ -267,6 +273,7 @@ body {
 .intro__container {
   display: flex;
   flex-direction: column;
+  margin-right: 122px;
 }
 
 .intro {
@@ -385,6 +392,7 @@ body {
 .nav__item:hover {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  padding: 0.2em 0.3em;
 }
 
 .nav__item {
