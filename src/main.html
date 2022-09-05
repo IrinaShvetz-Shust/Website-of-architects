@@ -29,32 +29,32 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main-container">
         <!-- PROJECT -->
         <section class="intro">
-            <h1 class="intro__title title title_main">Project
-                <span class="intro__subtitle subtitle">Lorum</span>
-            </h1>
-            <div class="pagination">
-                <div class="pagination__buttons-container">
-                    <button class="pagination__button" type="button"></button>
-                    <button class="pagination__button" type="button"></button>
-                </div>
-                <div class="pagination__numbers-container">
-                    <div class="pagination__numbers pagination__numbers_vertical">
-                        <span class="pagination__page-number">0</span>
-                        <span class="pagination__page-number">1</span>
+            <div class="intro__container">
+                <h1 class="intro__title title title_main">Project
+                    <span class="intro__subtitle subtitle subtitle_main">Lorum</span>
+                </h1>
+                <div class="pagination">
+                    <div class="pagination__buttons-container">
+                        <button class="pagination__button pagination__button_left" type="button"></button>
+                        <button class="pagination__button pagination__button_right" type="button"></button>
                     </div>
-                    <span class="pagination__line"></span>
-                    <div class="pagination__numbers">
+                    <div class="pagination__numbers-container">
+                        <div class="pagination__numbers">
+                            <span class="pagination__page-number">0</span>
+                            <span class="pagination__page-number">1</span>
+                        </div>
                         <span class="pagination__page-number">02</span>
                     </div>
                 </div>
             </div>
             <div class="intro__image-container">
+                <a href="projects.html" class="intro__button button button_white">View Project</a>
                 <img class="intro__image" src="assets/images/main-intro.jpg"
                     alt="Белое здание состоящее из квадратных блоков.">
-                <a href="projects.html" class="intro__button button button_white">View Project</a>
+
             </div>
         </section>
 
@@ -80,31 +80,32 @@
         <h1 class="project-title title">Contact Us</h1>
 
         <form id="contactform" name="contact" method="post" action="#">
-        
-        <div class="row">
-            <input class="row__input" type="text" name="name" placeholder="Name" required tabindex="1">
-        </div>
 
-        <div class="row">
-            <input  class="row__input" type="tel" name="tel" placeholder="Phone Number*" required tabindex="2">
-        </div>
+            <div class="row">
+                <input class="row__input" type="text" name="name" placeholder="Name" required tabindex="1">
+            </div>
 
-        <div class="row">
-            <input  class="row__input" type="email" name="email" placeholder="E-mail*" required tabindex="3">
-        </div>
+            <div class="row">
+                <input class="row__input" type="tel" name="tel" placeholder="Phone Number*" required tabindex="2">
+            </div>
 
-        <div class="row">
-            <input  class="row__input" type="text" name="subject" placeholder="Interested In" tabindex="4">
-        </div>
-        
-        <div class="row">
-            <textarea  class="row__input" name="message" class="txtarea" tabindex="5" placeholder="Message*" required></textarea>
-        </div>
+            <div class="row">
+                <input class="row__input" type="email" name="email" placeholder="E-mail*" required tabindex="3">
+            </div>
 
-        <div class="button">
-            <input  class="row__input" type="submit" name="submitbtn" tabindex="6" value="Send Email">
-        </div>
-    </form>
+            <div class="row">
+                <input class="row__input" type="text" name="subject" placeholder="Interested In" tabindex="4">
+            </div>
+
+            <div class="row">
+                <textarea class="row__input" name="message" class="txtarea" tabindex="5" placeholder="Message*"
+                    required></textarea>
+            </div>
+
+            <div class="button">
+                <input class="row__input" type="submit" name="submitbtn" tabindex="6" value="Send Email">
+            </div>
+        </form>
     </main>
     <footer class="footer text ">
         <div class="footer__logo"><img src="/src/assets/images/footer_logo.svg" alt="logo"></div>
