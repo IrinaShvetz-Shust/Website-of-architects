@@ -2,7 +2,7 @@
     display: grid;
     margin-left: 110px;
     margin-bottom: 112px;
-    grid-template-columns: 2;
+    grid-template-columns: 2 auto;
     grid-template-rows: repeat(5, auto);
 }
 
