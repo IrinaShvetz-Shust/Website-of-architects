@@ -582,12 +582,6 @@ body {
     width: 70%;
   }
 }
-.form {
-  display: flex;
-  height: 500px;
-  margin-top: 22px;
-  flex-flow: column wrap;
-}
 
 .footer-media__icons_color {
   fill: white;
