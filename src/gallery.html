@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Gallery</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="./favicon.ico" />
-  <link rel="stylesheet" href="./vendor/normalize.css" />
-  <link rel="stylesheet" href="./styles/main.css" />
-  <title>Document</title>
-</head>
-
-<body>
+  <body>
   <header class="header">
     <div class="logo">
       <img src="/src\assets\images\header-logo.svg" alt="logo" />
@@ -55,20 +54,26 @@
       <img id="IMG-9" class="container-gallery__img" src="assets/images/Gallery-IMG9.jpg" alt="" />
       <img id="IMG-10" class="container-gallery__img" src="assets/images/Gallery-IMG10.jpg" alt="" />
     </div>
-    <div class="pagination-2">
-      <div class="pagination-2__numbers-container">
-        <div class="pagination-2__numbers">
-          <span class="pagination-2__page-number">0</span>
-          <span class="pagination-2__page-number">1</span>
+    
+    <div class="pagination__inner">
+      <div class="pagination__numbers-container">
+        <div class="pagination__numbers">
+          <span class="pagination__page-number">0</span>
+          <span class="pagination__page-number">1</span>
         </div>
-        <span class="pagination-2__page-number">05</span>
+        <span class="pagination__page-number">05</span>
       </div>
-      <div class="pagination-2__buttons-container">
-        <button class="pagination-2__button pagination-2__button_left" type="button"></button>
-        <button class="pagination-2__button pagination-2__button_right" type="button"></button>
+      <div class="pagination__buttons-container__inner">
+        <button
+          class="pagination__button pagination__button_left"
+          type="button"
+        ></button>
+        <button
+          class="pagination__button pagination__button_right"
+          type="button"
+        ></button>
       </div>
     </div>
-  </div>
 
   <footer class="footer">
     <div class="footer__logo"><img src="/src/assets/images/footer_logo.svg" alt="logo" class="footer__logo_size">
@@ -120,5 +125,4 @@
     <p class="footer-rights_layout">© 2021 All Rights Reserved</p>
   </div>
 </body>
-
 </html>

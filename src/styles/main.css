@@ -493,70 +493,16 @@ body {
   background-repeat: no-repeat;
 }
 
-.pagination-2__button {
-  width: 53px;
-  height: 53px;
-  text-decoration: none;
-  border: 1px solid #F2F2F2;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.pagination-2__button_left {
-  margin-right: 23px;
-  background-image: url("../assets/images/icons/arrow-left.svg");
-}
-.pagination-2__button_right {
-  background-image: url("../assets/images/icons/arrow.svg");
-}
-.pagination-2__button:hover {
-  background-color: #F9F9F9;
-}
-.pagination-2__button:focus {
-  background-color: #F9F9F9;
-}
-
-.pagination-2__buttons-container {
-  margin: 0;
-  margin-left: 40px;
-  padding: 0;
-}
-
-.pagination-2__numbers-container {
-  display: flex;
-}
-
-.pagination-2__page-number {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #BDBDBD;
-}
-.pagination-2__page-number_inner {
-  color: #333333;
-}
-
-.pagination-2__numbers {
-  display: flex;
-  flex-direction: column;
-  margin-right: 89px;
-  position: relative;
-}
-.pagination-2__numbers::after {
-  content: "";
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 40px;
-  top: -5px;
-  background-image: url("../assets/images/icons/Line-pagination.svg");
-  background-repeat: no-repeat;
-}
-
-.pagination-2 {
+.pagination__inner {
   display: flex;
   flex-direction: row;
   margin: 75px 0px 110px 135px;
+}
+
+.pagination__buttons-container__inner {
+  margin: 0;
+  margin-left: 40px;
+  padding: 0;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -639,6 +585,15 @@ body {
   gap: 1.875rem;
   margin-left: 135px;
   margin-right: 135px;
+}
+
+.container-gallery__img {
+  padding: 0.3em;
+}
+
+.container-gallery__img:hover {
+  border: 1px solid black;
+  padding: 0.2em 0.3em;
 }
 
 #IMG-1 {
