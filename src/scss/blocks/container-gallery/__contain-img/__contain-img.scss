@@ -12,9 +12,20 @@
     margin-right: 135px;
 }
 
+.container-gallery__img{
+   
+    padding: 0.3em;
+    
+}
+
+.container-gallery__img:hover {
+    border: 1px solid black;
+    padding: 0.2em 0.3em;
+}
 
 #IMG-1{
     grid-area:IMG1;
+    
 }
 
 #IMG-2{

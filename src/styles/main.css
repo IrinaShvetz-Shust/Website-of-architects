@@ -499,6 +499,12 @@ body {
   margin: 75px 0px 110px 135px;
 }
 
+.pagination__buttons-container__inner {
+  margin: 0;
+  margin-left: 40px;
+  padding: 0;
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .footer__logo_size {
     width: 70%;
@@ -579,6 +585,15 @@ body {
   gap: 1.875rem;
   margin-left: 135px;
   margin-right: 135px;
+}
+
+.container-gallery__img {
+  padding: 0.3em;
+}
+
+.container-gallery__img:hover {
+  border: 1px solid black;
+  padding: 0.2em 0.3em;
 }
 
 #IMG-1 {
