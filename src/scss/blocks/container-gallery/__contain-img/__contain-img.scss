@@ -1,13 +1,16 @@
 .container-gallery__contain-img{
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
     "IMG1 IMG2 IMG3 IMG4 IMG5"
     "IMG6 IMG7 IMG8 IMG9 IMG10"
     ;
+    justify-items: center;
+    gap: 1.875rem;
+    margin-left: 135px;
+    margin-right: 135px;
 }
-
 #IMG-1{
     grid-area:IMG1;
 }
