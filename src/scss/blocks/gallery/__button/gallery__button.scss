@@ -1,0 +1,14 @@
+.gallery__button {
+
+    background-color: #38383800;
+    color: white;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-image: url(/src/assets/images/icons/arrow-white.svg);
+
+    background-position: 6.5rem;
+}
+
+.gallery__button:hover {
+    color: #bdbdbd;
+}
