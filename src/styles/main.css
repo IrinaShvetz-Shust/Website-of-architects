@@ -485,51 +485,62 @@ body {
   background-repeat: no-repeat;
 }
 
-.container-gallery__contain-img {
+.pagination-2__button {
+  width: 53px;
+  height: 53px;
+  text-decoration: none;
+  border: 1px solid #F2F2F2;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pagination-2__button_left {
+  margin-right: 23px;
+  background-image: url("../assets/images/icons/arrow-left.svg");
+}
+.pagination-2__button_right {
+  background-image: url("../assets/images/icons/arrow.svg");
+}
+.pagination-2__button:hover {
+  background-color: #F9F9F9;
+}
+.pagination-2__button:focus {
+  background-color: #F9F9F9;
+}
+
+.pagination-2__buttons-container {
+  padding: 0;
+}
+
+.pagination-2__numbers-container {
   display: flex;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 50% 50%;
-  grid-template-areas: "IMG1 IMG2 IMG3 IMG4 IMG5" "IMG6 IMG7 IMG8 IMG9 IMG10";
 }
 
-#IMG-1 {
-  grid-area: IMG1;
+.pagination-2__page-number {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #BDBDBD;
+}
+.pagination-2__page-number_inner {
+  color: #333333;
 }
 
-#IMG-2 {
-  grid-area: IMG2;
+.pagination-2__numbers {
+  display: flex;
+  flex-direction: column;
+  margin-right: 89px;
+  position: relative;
 }
-
-#IMG-3 {
-  grid-area: IMG3;
-}
-
-#IMG-4 {
-  grid-area: IMG4;
-}
-
-#IMG-5 {
-  grid-area: IMG5;
-}
-
-#IMG-6 {
-  grid-area: IMG6;
-}
-
-#IMG-7 {
-  grid-area: IMG7;
-}
-
-#IMG-8 {
-  grid-area: IMG8;
-}
-
-#IMG-9 {
-  grid-area: IMG9;
-}
-
-#IMG-10 {
-  grid-area: IMG10;
+.pagination-2__numbers::after {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 40px;
+  top: -5px;
+  background-image: url("../assets/images/icons/Line-pagination.svg");
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -601,6 +612,67 @@ body {
 
 .form__img {
   margin-left: 30px;
+}
+
+.container-gallery__contain-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "IMG1 IMG2 IMG3 IMG4 IMG5" "IMG6 IMG7 IMG8 IMG9 IMG10";
+  justify-items: center;
+  gap: 1.875rem;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+#IMG-1 {
+  grid-area: IMG1;
+}
+
+#IMG-2 {
+  grid-area: IMG2;
+}
+
+#IMG-3 {
+  grid-area: IMG3;
+}
+
+#IMG-4 {
+  grid-area: IMG4;
+}
+
+#IMG-5 {
+  grid-area: IMG5;
+}
+
+#IMG-6 {
+  grid-area: IMG6;
+}
+
+#IMG-7 {
+  grid-area: IMG7;
+}
+
+#IMG-8 {
+  grid-area: IMG8;
+}
+
+#IMG-9 {
+  grid-area: IMG9;
+}
+
+#IMG-10 {
+  grid-area: IMG10;
+}
+
+.container-gallery__h1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 122px;
+}
+
+.container-gallery {
+  display: grid;
 }
 
 /*# sourceMappingURL=main.css.map */
