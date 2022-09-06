@@ -2,4 +2,15 @@
     margin: 0;
     margin-bottom: 90px;
     padding: 0;
+
+    &::after {
+        content: '';
+        display: block;
+        position: relative;
+        background-color: #F2F2F2;
+        height: 1px;
+        width: 264px;
+        bottom: 30px;
+        left: 132px;
+    }
 }

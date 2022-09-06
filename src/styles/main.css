@@ -183,6 +183,7 @@ body {
   grid-template-columns: 1fr 721px;
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 30px;
+  margin-top: 29px;
 }
 
 @media screen and (max-width: 767px) {
@@ -198,6 +199,11 @@ body {
     align-items: center;
   }
 }
+.project-title {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(242, 242, 242, 0.9490196078);
+}
+
 .main-container {
   display: block;
   margin: 0 auto;
@@ -231,7 +237,6 @@ body {
 }
 .project-subtitle {
   display: block;
-  margin-bottom: 60px;
 }
 
 .button {
@@ -354,13 +359,6 @@ body {
   grid-template-columns: 1fr 3fr;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .header {
-    padding: 3%;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-  }
-}
 .logo {
   margin-top: 2%;
   margin-left: 24%;
@@ -452,6 +450,16 @@ body {
   margin: 0;
   margin-bottom: 90px;
   padding: 0;
+}
+.pagination__buttons-container::after {
+  content: "";
+  display: block;
+  position: relative;
+  background-color: #F2F2F2;
+  height: 1px;
+  width: 264px;
+  bottom: 30px;
+  left: 132px;
 }
 
 .pagination__numbers-container {
