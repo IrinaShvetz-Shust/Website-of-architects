@@ -183,6 +183,7 @@ body {
   grid-template-columns: 1fr 721px;
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 30px;
+  margin-top: 29px;
 }
 
 @media screen and (max-width: 767px) {
@@ -198,6 +199,11 @@ body {
     align-items: center;
   }
 }
+.project-title {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(242, 242, 242, 0.9490196078);
+}
+
 .main-container {
   display: block;
   margin: 0 auto;
@@ -231,7 +237,6 @@ body {
 }
 .project-subtitle {
   display: block;
-  margin-bottom: 60px;
 }
 
 .button {
