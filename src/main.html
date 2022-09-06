@@ -9,6 +9,58 @@
     <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./styles/main.css">
     <title>DIGITAL PROJECT</title>
+    <style>
+        .gallery {
+
+            display: grid;
+
+            gap: 1em;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 255px 255px;
+
+        }
+
+        .gallery__item {
+            width: 100%;
+            height: 90%;
+            object-fit: cover;
+
+        }
+
+        .gallery__item_layout-1 {
+
+            text-align: center;
+            grid-column: 1/span 6;
+            grid-row: 1/2;
+        }
+
+        .gallery__item_layout-2 {
+            grid-column: 7/span 6;
+            grid-row: 1/2;
+        }
+
+
+        .gallery__item_layout-3 {
+
+            grid-column: 1/4;
+            grid-row: 2/3;
+
+        }
+
+        .gallery__item_layout-4 {
+            grid-column: 4/span 5;
+            grid-row: 2/3;
+        }
+
+        .gallery__item_layout-5 {
+            grid-column: 9/span 4;
+            grid-row: 2/3;
+        }
+
+        .gallery__link {}
+    </style>
+
+
 </head>
 
 <body>
@@ -74,39 +126,28 @@
             <p class="block-column__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus
                 et facilisis placerat, magna mauris porttitor tortor, a auctor est felis ut nisl.</p>
         </div>
-        <!-- Our Projects -->
+        <!--Our Project-->
         <h1 class="title">Our Projects</h1>
+
+        <div class="gallery">
+            <div class="gallery__item gallery__item_layout-1"><img src="/src/assets/images/gallery-img-1.jpg" alt="">
+                <a href="" class="gallery__link">Biography</a>
+            </div>
+
+            <div class="gallery__item gallery__item_layout-2"><img src="/src/assets/images/gallery-img-2.jpg" alt="">
+            </div>
+            <div class="gallery__item gallery__item_layout-3"><img src="/src/assets/images/gallery-img-3.jpg" alt="">
+            </div>
+            <div class="gallery__item gallery__item_layout-4"><img src="/src/assets/images/gallery-img-4.jpg" alt="">
+            </div>
+            <div class="gallery__item gallery__item_layout-5"><img src="/src/assets/images/gallery-img-5.jpg" alt="">
+            </div>
+        </div>
+        <button class="button ">All projects</button>
+
+
         <!--Contact Us-->
         <h1 class="title">Contact Us</h1>
-
-
-        <form id="contactform" name="contact" method="post" action="#">
-
-            <div class="row">
-                <input class="row__input" type="text" name="name" placeholder="Name" required tabindex="1">
-            </div>
-
-            <div class="row">
-                <input class="row__input" type="tel" name="tel" placeholder="Phone Number*" required tabindex="2">
-            </div>
-
-            <div class="row">
-                <input class="row__input" type="email" name="email" placeholder="E-mail*" required tabindex="3">
-            </div>
-
-            <div class="row">
-                <input class="row__input" type="text" name="subject" placeholder="Interested In" tabindex="4">
-            </div>
-
-            <div class="row">
-                <textarea class="row__input" name="message" class="txtarea" tabindex="5" placeholder="Message*"
-                    required></textarea>
-            </div>
-
-            <div class="button">
-                <input class="row__input" type="submit" name="submitbtn" tabindex="6" value="Send Email">
-            </div>
-        </form>
 
         <form class="form" id="contactform" name="contact" method="post" action="#">
 
