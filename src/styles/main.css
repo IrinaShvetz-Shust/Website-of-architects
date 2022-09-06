@@ -214,11 +214,17 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .main-container {
+    padding: 20px;
+  }
   .main-container_projects1 {
     padding: 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-container {
+    padding: 20px;
+  }
   .main-container_projects1 {
     padding: 50px 20px;
   }
@@ -240,21 +246,21 @@ body {
 .button_white {
   color: #333333;
   background-color: #ffffff;
+  background-image: url("../assets/images/icons/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 10rem;
 }
 .button_white:hover {
-  border: 1px solid #F2F2F2;
-  padding: 29px 90px 28px 19px;
+  background-color: #FBFBFB;
 }
 
 .intro__button {
-  padding-right: 91px;
+  position: relative;
+  left: 0;
+  top: 802px;
+  padding-right: 6rem;
   padding-left: 20px;
-  position: absolute;
-  bottom: -133px;
   text-decoration: none;
-  background-image: url("../assets/images/icons/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: right;
 }
 
 .intro__title {
@@ -267,6 +273,7 @@ body {
 .intro__container {
   display: flex;
   flex-direction: column;
+  margin-right: 122px;
 }
 
 .intro {
@@ -289,6 +296,10 @@ body {
 }
 .footer-media__icons {
   padding: 5%;
+}
+
+.footer-media__icons:hover {
+  stroke: rgba(255, 255, 255, 0.8980392157);
 }
 
 .footer-nav {
@@ -381,6 +392,7 @@ body {
 .nav__item:hover {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
+  padding: 0.2em 0.3em;
 }
 
 .nav__item {
@@ -525,17 +537,70 @@ body {
     width: 70%;
   }
 }
-.row {
-  display: block;
+.form {
+  display: flex;
+  height: 500px;
   margin-top: 22px;
+  flex-flow: column wrap;
 }
 
-.row__input {
+.form__row {
+  display: block;
+  margin-top: 10px;
+}
+
+.form__input {
   width: 391px;
   height: 46px;
   border: none;
-  margin-bottom: 5px;
+  padding-left: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #8D8D8D;
   background: #F3F3F3;
+}
+
+.form__button_dark {
+  width: 222px;
+  height: 71px;
+  border: none;
+  background: #333333;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer__logo_size {
+    width: 70%;
+  }
+}
+.form {
+  display: flex;
+  height: 500px;
+  margin-top: 22px;
+  flex-flow: column wrap;
+}
+
+.form__message {
+  height: 112px;
+  padding-top: 14px;
+}
+
+.footer-media__icons_color {
+  fill: white;
+  stroke-width: inherit;
+}
+
+.form__img {
+  margin-left: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
