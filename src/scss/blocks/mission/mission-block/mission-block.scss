@@ -1,0 +1,7 @@
+@import "./__number/_number";
+@import "./__text/text.scss";
+.mission-block {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid red;
+}
