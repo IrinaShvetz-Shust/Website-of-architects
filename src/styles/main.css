@@ -888,5 +888,8 @@ body {
     margin: 30px auto;
   }
 }
+.visually-hidden {
+  display: none;
+}
 
 /*# sourceMappingURL=main.css.map */
