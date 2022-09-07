@@ -597,12 +597,11 @@ body {
 }
 
 .container-gallery__img {
-  padding: 0.3em;
+  border: 3px solid transparent;
 }
 
 .container-gallery__img:hover {
-  border: 1px solid black;
-  padding: 0.2em 0.3em;
+  border: 2px solid black;
 }
 
 #IMG-1 {
