@@ -257,6 +257,7 @@ body {
 }
 .button_white:hover {
   background-color: #FBFBFB;
+  transition: 0.5s;
 }
 
 .intro__button {
