@@ -534,6 +534,7 @@ body {
   color: #8D8D8D;
   background: #F3F3F3;
   outline: none;
+  transition: 0.4s;
 }
 
 .form__input:hover {
