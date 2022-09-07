@@ -709,9 +709,12 @@ body {
   padding-top: 5%;
   padding-left: 10%;
   box-sizing: border-box;
-  background-color: rgba(56, 56, 56, 0.6352941176);
   grid-column: 1/span 6;
   grid-row: 1/2;
+  background-blend-mode: multiply;
+  background-image: url(/src/assets/images/gallery__item-1.svg);
+  background-position: 100%;
+  background-color: #333333;
 }
 
 .gallery__item_layout-2 {
