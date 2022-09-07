@@ -1,0 +1,13 @@
+@import "./__image/_image";
+@import "./__text/_text";
+@import "./__title/_title";
+@import "./__button/_button";
+.project-card {
+    margin: 0;
+    display: flex;
+    position: relative;
+    background-color: #F2F2F2;
+    &:first-child {
+        margin-top: 29px;
+    }
+}

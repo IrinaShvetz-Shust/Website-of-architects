@@ -762,4 +762,62 @@ body {
   transform: scale(1.1);
 }
 
+.project-card__image {
+  margin: 0;
+  display: block;
+  max-width: 670px;
+  max-height: 435px;
+}
+
+.project-card__text {
+  margin: 0;
+  display: flex;
+  padding: 73px 70px 64px 30px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.project-card__title {
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 40px;
+  font-weight: 300;
+  color: #BDBDBD;
+}
+
+.project-card__button {
+  margin: 0 0 0 30px;
+  height: 71px;
+  width: 222px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.project-card {
+  margin: 0;
+  display: flex;
+  position: relative;
+  background-color: #F2F2F2;
+}
+.project-card:first-child {
+  margin-top: 29px;
+}
+
+.cards-container {
+  display: grid;
+  max-width: 1170px;
+  border-top: 1px solid #F2F2F2;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 60px;
+  grid-template-areas: "project-card-house" "project-card-interior" "project-card-parking";
+  margin: 30px auto;
+}
+
 /*# sourceMappingURL=main.css.map */
