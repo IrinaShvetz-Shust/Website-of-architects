@@ -8,3 +8,15 @@
     grid-template-areas: "project-card-house" "project-card-interior" "project-card-parking";
     margin: 30px auto;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cards-container {
+        display: grid;
+        max-width: 768px;
+        border-top: 1px solid #F2F2F2;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 20px;
+        grid-template-areas: "project-card-house" "project-card-interior" "project-card-parking";
+        margin: 30px auto;
+    }
+}
