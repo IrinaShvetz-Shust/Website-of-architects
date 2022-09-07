@@ -548,6 +548,15 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   cursor: pointer;
+  padding-right: 3em;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-image: url(/src/assets/images/icons/arrow-white.svg);
+  background-position: 10rem;
+}
+
+.form__button_dark:hover {
+  color: #bdbdbd;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
