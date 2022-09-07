@@ -764,4 +764,61 @@ body {
 .footer__title {
   font-weight: 700; }
 
+.mission_block__article {
+  margin: 0;
+  display: flex;
+  flex-direction: row; }
+
+.mission-block__number {
+  margin: 10px 0 0 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 234px;
+  display: flex;
+  align-self: flex-start;
+  color: #F2F2F2; }
+
+.mission-block__text {
+  margin: 60px 0 0 30px;
+  display: flex;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333; }
+
+.number_one {
+  display: flex;
+  width: 279px; }
+
+.number_two {
+  display: flex;
+  max-width: 420px; }
+
+.mission-block {
+  margin: 0;
+  display: flex;
+  justify-content: space-between; }
+
+@media screen and (max-width: 767px) {
+  .mission-block {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .mission-block {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
+.mission {
+  margin: 0 auto; }
+
+.visually-hidden {
+  display: none; }
+
 /*# sourceMappingURL=main.css.map */
