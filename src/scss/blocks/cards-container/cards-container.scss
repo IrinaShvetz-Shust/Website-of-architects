@@ -8,6 +8,17 @@
     margin: 29px auto 0;
 }
 
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .cards-container {
+        display: grid;
+        max-width: 768px;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-template-areas: "project-card-house" "project-card-interior" "project-card-parking";
+        margin: 0 auto;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cards-container {
         display: grid;

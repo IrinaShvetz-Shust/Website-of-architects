@@ -6,3 +6,25 @@
     font-weight: 300;
     color: #BDBDBD;
 }
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .project-card__title {
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 30px;
+        font-size: 25px;
+        font-weight: 300;
+        color: #BDBDBD;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .project-card__title {
+        margin: 0;
+        padding-top: 20px;
+        padding-left: 30px;
+        font-size: 30px;
+        font-weight: 300;
+        color: #BDBDBD;
+    }
+}
