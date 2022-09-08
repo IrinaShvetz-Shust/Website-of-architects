@@ -130,6 +130,12 @@ body {
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .container-con__map-responsive {
     grid-column: 1;
+    margin-left: 0;
+    width: 300px;
+  }
+  .container-con__map-responsive > iframe {
+    width: 300px;
+    height: 200px;
   }
 }
 .container-con {
@@ -143,7 +149,7 @@ body {
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .container-con {
     grid-template-columns: 1;
-    margin-left: 50px;
+    margin-left: 60px;
   }
 }
 .project-container__image {
@@ -1007,6 +1013,12 @@ body {
 
 .visually-hidden {
   display: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .container-con__con {
+    font-size: 50px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
