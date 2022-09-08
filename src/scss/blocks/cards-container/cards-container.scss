@@ -5,7 +5,7 @@
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 60px;
     grid-template-areas: "project-card-house" "project-card-interior" "project-card-parking";
-    margin: 0 auto;
+    margin: 29px auto 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
