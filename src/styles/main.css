@@ -503,6 +503,15 @@ body {
   margin-left: 40px;
   padding: 0; }
 
+.pagination__block {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 0 0 0; }
+
+.pagination__buttons-container__block {
+  margin: -12px 0 0 40px;
+  padding: 0; }
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .footer__logo_size {
     width: 70%; } }
