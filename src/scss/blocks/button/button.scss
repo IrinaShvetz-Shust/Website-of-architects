@@ -16,7 +16,16 @@
 
         &:hover {
             background-color: #FBFBFB;
-            transition: 0.5s;
+            transition: 0.3s;
         }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .button_main {
+        padding: 20px 10px;
+        font-size: 10px;
+        letter-spacing: none;
+        background-image: none;
     }
 }
