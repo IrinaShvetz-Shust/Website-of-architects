@@ -6,14 +6,20 @@
     font-weight: 300;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-
+    &_projects {
+        position: relative;
+        left: 30px;
+        top: 30px;
+        padding-right: 82px;
+        padding-left: 67px;
+        text-decoration: none;
+    }
     &_white {
         color: #333333;
         background-color: #ffffff;
         background-image: url('../assets/images/icons/arrow.svg');
         background-repeat: no-repeat;
         background-position: 10rem;
-
         &:hover {
             background-color: #FBFBFB;
             transition: 0.3s;

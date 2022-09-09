@@ -245,6 +245,13 @@ body {
   font-weight: 300;
   letter-spacing: 0.2em;
   text-transform: uppercase; }
+  .button_projects {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    padding-right: 82px;
+    padding-left: 67px;
+    text-decoration: none; }
   .button_white {
     color: #333333;
     background-color: #ffffff;
@@ -863,13 +870,14 @@ body {
     font-weight: 300;
     color: #BDBDBD; } }
 .project-card__button {
-  margin: 0 0 0 30px;
+  margin-left: 30px;
   height: 71px;
   width: 222px;
   font-family: inherit;
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
+  letter-spacing: 0.2em;
   text-decoration: none; }
 
 .project-card {
