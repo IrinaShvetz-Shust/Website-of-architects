@@ -1328,5 +1328,16 @@ body {
     font-size: 50px;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer-media {
+    display: flex !important;
+    flex-direction: row;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__item_active {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
