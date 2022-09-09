@@ -5,6 +5,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
     .footer__item {
         display: none;
+        margin-top: 0;
 
         &_social {
             display: flex;
