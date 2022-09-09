@@ -39,13 +39,13 @@ margin-left: 4vh;
 
 @media screen and (max-width: 767px)  {
     .about__text {
-        width: 100%;
+        width: none;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .about__text {
-        width: 100%;
+        width: none;
     }
 }
 
@@ -54,10 +54,6 @@ margin-left: 4vh;
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .about__img {
-        width: 100%;
-    }
-
-    .about__img{
-        width: 50%;
+        width: 30%;
     }
 }
