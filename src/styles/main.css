@@ -501,7 +501,8 @@ body {
     height: 800px; } }
 .form__message {
   height: 112px;
-  padding-top: 14px; }
+  padding-top: 14px;
+  margin-bottom: 52px; }
 
 .footer-media__icons_color {
   fill: white;
@@ -513,7 +514,8 @@ body {
 @media screen and (min-width: 360px) and (max-width: 767px) {
   .form__img {
     margin-top: 20px;
-    margin-left: 0; }
+    margin-left: 0;
+    margin-bottom: 0; }
 
   .form__img > img {
     width: 330px; } }
