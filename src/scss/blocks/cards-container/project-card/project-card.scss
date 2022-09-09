@@ -7,9 +7,6 @@
     display: flex;
     position: relative;
     background-color: #F2F2F2;
-    &:first-child {
-        margin-top: 29px;
-    }
 }
 
 @media screen and (max-width: 767px) {

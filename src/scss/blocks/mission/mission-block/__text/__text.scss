@@ -18,3 +18,29 @@
     display: flex;
     max-width: 420px;
 }
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .mission-block__text {
+        margin: 20px 0 0 10px;
+        display: flex;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 36px;
+        color: #333333;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .mission-block__text {
+        margin: 20px 0 0 10px;
+        display: flex;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 36px;
+        color: #333333;
+    }
+}

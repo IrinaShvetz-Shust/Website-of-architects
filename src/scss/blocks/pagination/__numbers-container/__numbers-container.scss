@@ -1,3 +1,16 @@
 .pagination__numbers-container {
     display: flex;
 }
+
+@media screen and (max-width: 767px) {
+    .pagination__numbers-container::after {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .pagination__numbers-container::after {
+        display: none;
+    }
+}
