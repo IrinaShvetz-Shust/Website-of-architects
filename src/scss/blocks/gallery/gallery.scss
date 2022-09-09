@@ -1,5 +1,4 @@
 .gallery {
-
     margin-top: 4%;
     display: grid;
     gap: 1em;
@@ -11,7 +10,12 @@
     .gallery {
         display: flex;
         flex-flow: column wrap;
-        
     }
+}
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .gallery {
+        display: flex;
+        flex-flow: column wrap;
+    }
 }

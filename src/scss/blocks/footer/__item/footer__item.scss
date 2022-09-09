@@ -5,5 +5,10 @@
 @media (min-width: 320px) and (max-width: 767px) {
     .footer__item {
         display: none;
+
+        &_social {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
