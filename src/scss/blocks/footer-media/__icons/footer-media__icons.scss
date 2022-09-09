@@ -1,7 +1,8 @@
 
         .footer-media__icons {
-
-            padding: 5%;
+            
+            padding-top: 5%;
+            padding-right: 5%;
            
         }
         .footer-media__icons:hover {
@@ -9,3 +10,12 @@
             stroke: #ffffffe5;
 
         }
+        @media (min-width: 320px) and (max-width: 767px) {
+            .footer-media__icons {
+
+                padding: 3%;
+                margin-left: 13%;
+            }
+
+        }
+        

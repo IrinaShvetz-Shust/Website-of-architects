@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .footer__subtitle {
+        display: none !important;
+    }
+}
+.footer__subtitle {
+    display: inline;
+}
