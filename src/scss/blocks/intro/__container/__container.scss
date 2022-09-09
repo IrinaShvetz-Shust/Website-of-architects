@@ -3,3 +3,16 @@
     flex-direction: column;
     margin-right: 122px;
 }
+
+@media screen and (max-width: 767px) {
+    .intro__container {
+        margin: 0;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .intro__container {
+        margin: 0;
+    }
+}

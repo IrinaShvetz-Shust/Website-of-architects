@@ -4,3 +4,16 @@
     margin-top: 22px;
     flex-flow: column wrap;
 }
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .form {
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .form {
+        height: 800px;
+    }
+}
+

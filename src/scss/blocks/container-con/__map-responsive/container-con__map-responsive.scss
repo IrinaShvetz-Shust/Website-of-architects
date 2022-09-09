@@ -8,5 +8,12 @@
 @media screen and (min-width: 360px) and (max-width: 767px) {
     .container-con__map-responsive {
         grid-column: 1;
+        margin-left: 0;
+        width: 300px;
+    }
+
+    .container-con__map-responsive > iframe {
+        width: 300px;
+        height: 200px;
     }
 }

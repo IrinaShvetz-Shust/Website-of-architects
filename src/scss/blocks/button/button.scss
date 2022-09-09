@@ -6,17 +6,32 @@
     font-weight: 300;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-
+    &_projects {
+        position: relative;
+        top: 30px;
+        left: 30px;
+        padding-right: 82px;
+        padding-left: 67px;
+        text-decoration: none;
+    }
     &_white {
         color: #333333;
         background-color: #ffffff;
         background-image: url('../assets/images/icons/arrow.svg');
         background-repeat: no-repeat;
         background-position: 10rem;
-
         &:hover {
             background-color: #FBFBFB;
-            // outline: 1px solid #F2F2F2;
+            transition: 0.3s;
         }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .button_main {
+        padding: 20px 10px;
+        font-size: 10px;
+        letter-spacing: none;
+        background-image: none;
     }
 }

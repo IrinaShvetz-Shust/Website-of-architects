@@ -5,104 +5,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" href="./favicon.ico" />
 </head>
 
 <body>
     <header class="header ">
-        <div class="logo"><img src=".\src\assets\images\header-logo.svg" alt="logo"></div>
+        <div class="logo"><a href="main.html"><img src="./assets/images/header-logo.svg" alt="logo"></a></div>
         <nav>
             <ul class="nav nav_text_size">
-                <li class="nav__item "><a href="Main.html" target="_blank" class="nav__item_links_color nav__item_link_active">Main</a></li>
+                <li class="nav__item "><a href="Main.html" target="_blank"
+                        class="nav__item_links_color nav__item_link_active">Main</a></li>
                 <li class="nav__item"><a href="Gallery.html" target="_blank" class="nav__item_links_color">Gallery</a>
                 </li>
                 <li class="nav__item"><a href="Projects.html" target="_blank" class="nav__item_links_color">Projects</a>
                 </li>
-                <li class="nav__item"><a href="Certifications.html" target="_blank" class="nav__item_links_color">Certifications</a></li>
+                <li class="nav__item"><a href="certificates.html" target="_blank"
+                        class="nav__item_links_color">Certifications</a></li>
                 <li class="nav__item"><a href="Contacts.html" target="_blank" class="nav__item_links_color">Contacts</a>
                 </li>
             </ul>
         </nav>
     </header>
-
     <main class="main-container">
-        <h1 class="project-title title">Our</h1>
-        <h2 class="project-subtitle subtitle">Projects</h2>
-
+        <h1 class="project-title title">Our
+            <span class="project-subtitle subtitle">Projects</span>
+        </h1>
         <section class="cards-container">
             <article class="project-card project-card-house">
                 <img class="project-card__image" src="./assets/images/sample_project_1.jpg" alt="Дом нового поколения">
                 <div class="card-text-container">
                     <h3 class="project-card__title">Sample Project</h3>
-                    <p class="project-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    <p class="project-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type
                         specimen book.</p>
-                    <button class="project-card__button button_white button_card">View more</button></div>
+                    <a href="./projects1.html" class="button_white button_projects button btn_pro">View more</a>
+                </div>
             </article>
             <article class="project-card project-card-interior">
                 <img class="project-card__image" src="./assets/images/sample_project_2.jpg" alt="Интерьер дома">
                 <div class="card-text-container">
                     <h3 class="project-card__title">Sample Project 2</h3>
-                    <p class="project-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    <p class="project-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type
                         specimen book.
                     </p>
-                    <button class="project-card__button button_white button_card">View more</button>
+                    <button class="project-card__button button_white btn_pro">View more</button>
                 </div>
             </article>
             <article class="project-card project-card-parking">
-                <img class="project-card__image" src="./assets/images/sample_project_3.jpg" alt="Парковка нового поколения">
+                <img class="project-card__image" src="./assets/images/sample_project_3.jpg"
+                    alt="Парковка нового поколения">
                 <div class="card-text-container">
                     <h3 class="project-card__title">Sample Project 3</h3>
-                    <p class="project-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                    <p class="project-card__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley of type and scrambled it to make a type
                         specimen book.
                     </p>
-                    <button class="project-card__button button_white button_card">View more</button>
+                    <button class="project-card__button button_white btn_pro">View more</button>
                 </div>
             </article>
         </section>
-        <div class="pagination">
-            <div class="pagination__buttons-container">
-                <button class="pagination__button" type="button"></button>
-                <button class="pagination__button" type="button"></button>
-            </div>
+
+        <div class="pagination__block">
             <div class="pagination__numbers-container">
-                <div class="pagination__numbers pagination__numbers_vertical">
-                    <span class="pagination__page-number">0</span>
-                    <span class="pagination__page-number">1</span>
-                </div>
-                <span class="pagination__line"></span>
                 <div class="pagination__numbers">
-                    <span class="pagination__page-number">05</span>
+                    <span class="pagination__page-number pagination__page-number_inner">0</span>
+                    <span class="pagination__page-number pagination__page-number_inner">1</span>
                 </div>
+                <span class="pagination__page-number">05</span>
+            </div>
+            <div class="pagination__buttons-container__block">
+                <button class="pagination__button pagination__button_left" type="button"></button>
+                <button class="pagination__button pagination__button_right" type="button"></button>
             </div>
         </div>
-    </main>
 
+    </main>
     <footer class="footer">
-        <div class="footer__logo"><img src="/src/assets/images/footer_logo.svg" alt="logo" class="footer__logo_size">
+        <div class="footer__logo"><img src="./assets/images/footer_logo.svg" alt="logo" class="footer__logo_size">
         </div>
         <div class="footer__item text">Information
-            <nav class="footer-nav"><a href="Main.html" target="_blank" class="footer-nav__item">Main</a><a href="Gallery.html" target="_blank" class="footer-nav__item">Gallery</a><a href="Projects.html" target="_blank" class="footer-nav__item">Projects</a><a href="Certifications.html"
-                    target="_blank" class="footer-nav__item">Certifications</a><a href="Contacts.html" target="_blank" class="footer-nav__item">Contacts</a></nav>
+            <nav class="footer-nav"><a href="Main.html" target="_blank" class="footer-nav__item">Main</a><a
+                    href="Gallery.html" target="_blank" class="footer-nav__item">Gallery</a><a href="Projects.html"
+                    target="_blank" class="footer-nav__item">Projects</a><a href="certificates.html" target="_blank"
+                    class="footer-nav__item">Certifications</a><a href="Contacts.html" target="_blank"
+                    class="footer-nav__item">Contacts</a></nav>
         </div>
         <div class="footer__item text">Contacts <address class="footer-nav"><a href="" target="_blank"
-                    class="footer-nav__item"><img src="/src/assets/images/footer-img-1.svg" alt="location icon"
+                    class="footer-nav__item"><img src="./assets/images/footer-img-1.svg" alt="location icon"
                         class="footer-nav__img">1234 Sample Street<br>Austin Texas 78681 </a><a href="" target="_blank"
-                    class="footer-nav__item"><img src="/src/assets/images/footer-img-2.svg" alt="phone icon"
+                    class="footer-nav__item"><img src="./assets/images/footer-img-2.svg" alt="phone icon"
                         class="footer-nav__img">512.333.2222 </a><a href="" target="_blank"
-                    class="footer-nav__item"><img src="/src/assets/images/footer-img-3.svg" alt="message icon"
+                    class="footer-nav__item"><img src="./assets/images/footer-img-3.svg" alt="message icon"
                         class="footer-nav__img">sampleemail@gmail.com</a></address>
         </div>
         <div class="footer__item text">Social Media
             <div class="footer-media">
                 <a href="" target="_blank">
-                    <svg class="footer-media__icons" width="20" height="20" viewBox="0 0 10 19" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="footer-media__icons" width="20" height="20" viewBox="0 0 10 19"
+                        xmlns="http://www.w3.org/2000/svg">
                         <path class="footer-media__icons_color" fill-rule="evenodd" clip-rule="evenodd"
                             d="M6.13701 18.993H2.04601V9.499H0.00100708V6.226H2.04601V4.262C2.04601 1.593 3.20101 0.0039978 6.47901 0.0039978H9.20901V3.277H7.50401C6.22601 3.277 6.14201 3.735 6.14201 4.589L6.13701 6.226H9.22901L8.86701 9.499H6.13701V18.993Z" />
                     </svg></a>
-
-
                 <a href="" target="_blank"><svg class="footer-media__icons" width="20" height="20" viewBox="0 0 22 17"
                         xmlns="http://www.w3.org/2000/svg">
                         <path class="footer-media__icons_color" fill-rule="evenodd" clip-rule="evenodd"
@@ -125,7 +135,6 @@
     <div class="footer-rights text">
         <p class="footer-rights_layout">© 2021 All Rights Reserved</p>
     </div>
-</body>
 </body>
 
 </html>

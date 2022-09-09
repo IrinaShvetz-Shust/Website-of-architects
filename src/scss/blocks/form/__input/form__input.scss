@@ -11,14 +11,15 @@
     background: #F3F3F3;
     outline:none;
     transition: 0.4s;
-    
-    
 }
 .form__input:hover{
     
     border-radius: 3px;
     transform: scale(1.1);
-    
 }
 
-
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .form__input {
+        width: 310px;
+    }
+}
