@@ -13,13 +13,10 @@
 }
 
 .container-gallery__img{
-   
-    border: 3px solid transparent;
-    
+    box-sizing: border-box;
 }
-
 .container-gallery__img:hover {
-    border: 2px solid black;
+    transform: scale(1.03);
 }
 
 #IMG-1{
