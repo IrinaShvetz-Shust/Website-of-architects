@@ -3,4 +3,8 @@
     padding: 12%;
     margin-left: 3%;
 }
-
+@media (min-width: 320px) and (max-width: 767px){
+    .footer__logo{
+        display: none;
+    }
+}

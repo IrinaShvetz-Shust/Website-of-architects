@@ -300,13 +300,20 @@ body {
   }
 }
 .footer-media__icons {
-  padding: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
 }
 
 .footer-media__icons:hover {
   stroke: rgba(255, 255, 255, 0.8980392157);
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer-media__icons {
+    padding: 3%;
+    margin-left: 13%;
+  }
+}
 .footer-nav {
   font-style: normal;
   display: flex;
@@ -344,15 +351,30 @@ body {
     height: 40vh;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    height: 20vh;
+  }
+}
 .footer__item {
   margin-top: 10%;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__item {
+    display: none;
+  }
+}
 .footer__logo {
   padding: 12%;
   margin-left: 3%;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer__logo {
+    display: none;
+  }
+}
 .header {
   padding: 3%;
   display: grid;
@@ -371,6 +393,11 @@ body {
     align-self: flex-start;
   }
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .logo {
+    margin-top: 2em;
+  }
+}
 .nav {
   list-style-type: none;
   display: flex;
@@ -385,6 +412,16 @@ body {
     width: 60vw;
     display: flex;
     flex-flow: row wrap;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50vw;
+    margin-left: 8%;
   }
 }
 .nav__item:hover {
@@ -409,7 +446,7 @@ body {
 }
 
 .footer-rights {
-  border: 0.5px solid rgba(200, 200, 200, 0.4862745098);
+  border-top: 0.5px solid rgba(200, 200, 200, 0.4862745098);
   background-color: #2C2C2C;
   font-size: 12px;
   color: rgba(200, 200, 200, 0.4862745098);
@@ -418,8 +455,6 @@ body {
 }
 
 .footer-rights_layout {
-  display: flex;
-  justify-content: center;
   padding: 1%;
 }
 
@@ -558,7 +593,7 @@ body {
   padding-right: 3em;
   text-decoration: none;
   background-repeat: no-repeat;
-  background-image: url(/src/assets/images/icons/arrow-white.svg);
+  background-image: url(../assets/images/icons/arrow-white.svg);
   background-position: 10rem;
   transition: 1s;
 }
@@ -566,7 +601,7 @@ body {
 .form__button_dark:hover {
   color: #bdbdbd;
   text-shadow: #bdbdbd;
-  background-image: url(/src/assets/images/icons/arrow-hover.svg);
+  background-image: url(../assets/images/icons/arrow-hover.svg);
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -665,6 +700,12 @@ body {
   margin-top: 3em;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .form__button_dark_layout {
+    margin-left: 0;
+    margin-top: 3em;
+  }
+}
 .title_layout {
   margin-top: 7%;
 }
