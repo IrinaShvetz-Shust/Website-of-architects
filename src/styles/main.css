@@ -968,6 +968,12 @@ body {
   grid-template-rows: 255px 255px;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .gallery {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
 .gallery__button {
   background-color: rgba(56, 56, 56, 0);
   color: white;
@@ -1337,6 +1343,11 @@ body {
 @media (min-width: 320px) and (max-width: 767px) {
   .footer__item_active {
     display: block;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .gallery__img {
+    width: 81vw;
   }
 }
 
