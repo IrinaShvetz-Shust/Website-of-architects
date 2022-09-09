@@ -1,3 +1,15 @@
 .footer__item {
     margin-top: 10%;
+    
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .footer__item {
+        display: none;
+        margin-top: 0;
+
+        &_social {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }

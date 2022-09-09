@@ -1,2 +1,19 @@
 @import"./__contain-img/_contain-img";
 @import"./__h1/_h1";
+
+@media screen and (max-width: 767px)  {
+    .container-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container-gallery__contain-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}

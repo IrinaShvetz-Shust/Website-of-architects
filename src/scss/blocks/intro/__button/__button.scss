@@ -1,8 +1,21 @@
 .intro__button {
     position: relative;
     left: 0;
-    top: 802px;
+    top: 806px;
     padding-right: 6rem;
     padding-left: 20px; 
     text-decoration: none;
+}
+
+@media screen and (min-width: 482px) and (max-width: 767px) {
+    .intro__button {
+        top: 623px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .intro__button {
+        top: 642px;
+    }
 }
