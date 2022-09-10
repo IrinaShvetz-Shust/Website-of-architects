@@ -13,11 +13,6 @@
         padding-right: 82px;
         padding-left: 67px;
         text-decoration: none;
-        &:hover {
-            border: 1px solid gray;
-            background-color: rgb(199, 194, 194);
-            transition: 0.2s;
-        }
     }
     &_white {
         color: #333333;
@@ -26,8 +21,9 @@
         background-repeat: no-repeat;
         background-position: 10rem;
         &:hover {
+            border: 1px solid rgb(221, 219, 219);
             background-color: #FBFBFB;
-            transition: 0.3s;
+            transition: 0.5s;
         }
     }
     &_about {
@@ -36,13 +32,7 @@
         padding-right: 82px;
         padding-left: 67px;
         text-decoration: none;
-        &:hover {
-            border: 1px solid gray;
-            background-color: rgb(199, 194, 194);
-            transition: 0.2s;
-        }
     }
-    
 }
 
 @media screen and (max-width: 767px) {
