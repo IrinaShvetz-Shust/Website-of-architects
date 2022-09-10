@@ -59,3 +59,16 @@
 #IMG-10{
     grid-area:IMG10;
 }
+
+@media screen and (max-width: 767px)  {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container-gallery__contain-img{
+        width: 100%;
+    }
+
+    .container-gallery__contain-img{
+        width: 50%;
+    }
+}
