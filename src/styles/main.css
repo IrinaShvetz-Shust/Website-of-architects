@@ -351,6 +351,11 @@ body {
     top: 642px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .intro__button {
+    display: none;
+  }
+}
 .intro__title {
   padding: 0;
   padding-top: 336px;
@@ -633,7 +638,6 @@ body {
   }
 }
 .pagination__buttons-container {
-  margin: 0;
   margin-bottom: 90px;
   padding: 0;
 }
@@ -655,6 +659,11 @@ body {
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .pagination__buttons-container::after {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .pagination__buttons-container {
     display: none;
   }
 }
