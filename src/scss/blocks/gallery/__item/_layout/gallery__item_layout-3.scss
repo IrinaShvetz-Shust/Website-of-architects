@@ -1,14 +1,9 @@
 .gallery__item_layout-3 {
-    margin-top: 30px;
-    max-width: 270px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    transition: 1s;
 }
 
 .gallery__item_layout-3:hover {
     transform: scale(1.03);
-}
-
-@media screen and (min-width: 360px) and (max-width: 767px) {
-    .gallery__item_layout-3 {
-        display: none;
-    }
 }

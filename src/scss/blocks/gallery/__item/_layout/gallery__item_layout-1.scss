@@ -1,19 +1,11 @@
 .gallery__item_layout-1 {
-    width: 570px;
-    height: 255px;
+    padding-top: 5%;
+    padding-left: 10%;
+    box-sizing: border-box;
+    grid-column: 1/span 6;
+    grid-row: 1/2;
     background-blend-mode: multiply;
     background-image: url(/src/assets/images/gallery__item-1.svg);
+    background-position: 100%;
     background-color: #333333;
-}
-
-@media screen and (min-width: 360px) and (max-width: 767px) {
-    .gallery__item_layout-1 {
-        max-width: 360px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .gallery__item_layout-1 {
-        max-width: 400px;
-    }
 }

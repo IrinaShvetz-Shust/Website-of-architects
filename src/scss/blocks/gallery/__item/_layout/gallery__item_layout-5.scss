@@ -1,6 +1,7 @@
 .gallery__item_layout-5 {
-    margin-top: 30px;
-    max-width: 370px;
+    grid-column: 9/span 4;
+    grid-row: 2/3;
+    transition: 1s;
 }
 
 .gallery__item_layout-5:hover {

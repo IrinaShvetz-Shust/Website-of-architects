@@ -1,20 +1,9 @@
 .gallery__item_layout-2 {
-    display: flex;
-    max-width: 570px;
+    grid-column: 7/span 6;
+    grid-row: 1/2;
+    transition: 1s;
 }
 
 .gallery__item_layout-2:hover {
     transform: scale(1.03);
-}
-
-@media screen and (min-width: 360px) and (max-width: 767px) {
-    .gallery__item_layout-2 {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .gallery__item_layout-2 {
-        margin-top: 30px;
-    }
 }
