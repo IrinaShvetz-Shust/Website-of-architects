@@ -1,13 +1,10 @@
 .gallery__link {
+    margin: 0;
     text-decoration: none;
     color: white;
     transition: 1s;
 }
+
 .gallery__link:hover {
-   
     transform: scale(1.1);
-    
 }
-
-
-
