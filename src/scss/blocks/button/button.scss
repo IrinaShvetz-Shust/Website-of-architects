@@ -14,6 +14,14 @@
         padding-left: 67px;
         text-decoration: none;
     }
+    &_gallery {
+        padding-top: 14px;
+        font-family: inherit;
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
     &_white {
         color: #333333;
         background-color: #ffffff;
@@ -21,9 +29,17 @@
         background-repeat: no-repeat;
         background-position: 10rem;
         &:hover {
+            border: 1px solid rgb(221, 219, 219);
             background-color: #FBFBFB;
-            transition: 0.3s;
+            transition: 0.5s;
         }
+    }
+    &_about {
+        position: relative;
+        top: 30px;
+        padding-right: 82px;
+        padding-left: 67px;
+        text-decoration: none;
     }
 }
 
@@ -33,5 +49,21 @@
         font-size: 10px;
         letter-spacing: none;
         background-image: none;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .button_projects {
+        display: block;
+        margin-bottom: 55px;
+        margin-right: 90px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .button_projects {
+        display: block;
+        margin-bottom: 55px;
+        margin-right: 500px;
     }
 }

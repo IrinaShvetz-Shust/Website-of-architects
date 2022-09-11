@@ -1,9 +1,8 @@
 .gallery__item_layout-4 {
-    grid-column: 4/span 5;
-    grid-row: 2/3;
-    transition: 1s;
+    margin-top: 30px;
+    max-width: 470px;
 }
-.gallery__item_layout-4:hover{
+
+.gallery__item_layout-4:hover {
     transform: scale(1.03);
-    }
-    
+}

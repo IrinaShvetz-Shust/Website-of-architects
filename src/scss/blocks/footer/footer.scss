@@ -14,9 +14,10 @@
     }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-
-
     .footer {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
         height: 20vh;
     }
 }
