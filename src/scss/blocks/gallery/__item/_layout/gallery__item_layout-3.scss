@@ -1,11 +1,9 @@
 .gallery__item_layout-3 {
-
     grid-column: 1/4;
     grid-row: 2/3;
-
-transition: 1s;
+    transition: 1s;
 }
-.gallery__item_layout-3:hover{
+
+.gallery__item_layout-3:hover {
     transform: scale(1.03);
-    }
-    
+}

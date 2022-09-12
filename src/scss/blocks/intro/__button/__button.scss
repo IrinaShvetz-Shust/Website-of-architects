@@ -19,3 +19,8 @@
         top: 642px;
     }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .intro__button {
+        display: none;
+    }
+}
